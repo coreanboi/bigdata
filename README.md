@@ -1,19 +1,34 @@
-# bigdata
-## The functions of my Python program: PyCharm
+# AMC Movie Guide
 
-PyCharm is an Integrated Development Environment (IDE) particularly created for the Python programming language. It contains a variety of features that make it simpler to design, debug, and maintain Python programs.
+AMC Movie Guide is a program that allows users to search for movies currently showing at AMC theaters and retrieve audience and critic scores from Rotten Tomatoes. The program offers sorting capabilities based on various criteria and the ability to filter recommended movies. Additionally, the final movie listing can be saved as a .csv file.
 
-## Key functions of PyCharm:
+## Features
 
-- Code Editing: PyCharm features powerful code editing capabilities including as code completion, syntax highlighting, and error checking to help you generate mistake-free code.
-- Debugging: PyCharm features a comprehensive debugger that allows you to navigate through your code, inspect variables, and create breakpoints.
-- Code Navigation: PyCharm has tools that make it easy to browse through your code, including an outline view, quick navigation to files and symbols, and the option to skip to the definition of a symbol.
-- Project Management: PyCharm helps you manage your projects by offering a clear picture of your project structure and allowing you to manage dependencies, virtual environments, and code style.
-- Testing: PyCharm allows testing your code using frameworks such as unittest, pytest, and doctest. You may run tests and check results immediately from within the IDE.
-- Integration with Tools: PyCharm connects with a number of tools and technologies like as Git, SVN, and databases to make it easier to work with your code.
-- Refactoring: PyCharm contains a range of refactoring tools that allow you to securely modify the structure of your code, such as renaming symbols, removing methods, and shifting code.
-- Remote Development: PyCharm allows you to develop code on a distant server, making it easier to work with code that is saved on a remote workstation.
+1. **Search for AMC movies**: Users can search for movies currently showing at AMC theaters.
 
-Source: https://www.jetbrains.com/pycharm/features/
+2. **Retrieve audience and critic scores**: Users can retrieve audience and critic scores from Rotten Tomatoes for each movie.
 
-By Yujoon Jang
+3. **Sort movies**: Users can sort the movie list by various criteria:
+   - Alphabet (A -> Z)
+   - Running Time (Shortest -> Longest)
+   - Released Date (Newest -> Oldest)
+   - Tomatometer (Highest -> Lowest)
+   - Audience Score (Highest -> Lowest)
+
+4. **Filter recommended movies**: Users can choose to show only recommended movies based on a Tomatometer or Audience Score of 85 or higher.
+
+5. **Save as .csv file**: The final movie listing can be saved as a .csv file for further analysis.
+
+## Usage
+
+To use AMC Movie Guide, simply follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required packages by running `pip install -r requirements.txt` in the command line.
+3. Run the `amc_movie_guide.py` file in your Python IDE or from the command line.
+4. Follow the prompts to search for movies, choose sorting criteria, and filter recommended movies.
+5. Once you have your final movie listing, choose to save it as a .csv file if desired.
+
+## Author
+
+AMC Movie Guide was created by Yujoon Jang.
